@@ -10,3 +10,14 @@ hr {
   border-top: 2px solid #333;  
   margin: 20px 0;
 }
+
+.food-box {
+  text-align: center;          
+  background-color: #86caf4;   
+  border: 2px solid #48d6de;   
+  border-radius: 15px;         
+  padding: 15px;              
+  margin: 20px auto;           
+  width: 60%;   
+}
+ 
