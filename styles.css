@@ -18,6 +18,25 @@ hr {
   border-radius: 10px;         
   padding: 50px;              
   margin: 20px;           
-  width: 60%;   
+  width: 60% auto;   
 }
- 
+
+body {
+  background-color: lightblue;
+}
+
+.email-link {
+  color: darkblue;       
+  font-weight: bold;     
+  text-decoration: none; 
+}
+
+.email-link:hover {
+  color: rgb(64, 81, 212);         
+  text-decoration: underline; 
+}
+
+h3 {
+  color: #2F4F4F;  /* Dark Slate Gray */
+  font-weight: bold;
+}
