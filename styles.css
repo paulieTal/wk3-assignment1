@@ -17,8 +17,8 @@ nav a {
 }
 
 h1 {
-  font-weight: 700; 
-  color: darkblue;   
+  font-weight: 700;
+  color: darkblue;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -29,35 +29,42 @@ h2 {
 }
 
 h3 {
-  color: #2F4F4F;  /* Dark Slate Gray */
+  color: #2F4F4F;
+  /* Dark Slate Gray */
   font-weight: bold;
   margin-top: 20px;
 }
 
 hr {
-  border: none;          
-  border-top: 2px solid #333;  
+  border: none;
+  border-top: 2px solid #333;
   margin: 20px 0;
 }
 
 .food-box {
-  text-align: center;          
-  background-color: #86caf4;   
-  border: 2px solid #48d6de;   
-  border-radius: 10px;         
-  padding: 20px;              
-  margin: 20px auto;           
-  width: 60%;   
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: #86caf4;
+  border: 2px solid #48d6de;
+  border-radius: 30px 0px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .email-link {
-  color: darkblue;       
-  font-weight: bold;     
-  text-decoration: none; 
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .email-link:hover {
-  color: #4051d4;         
-  text-decoration: underline; 
+  color: #4051d4;
+  text-decoration: underline;
+}
+
+.food-box:first-letter {
+  font-weight: bold;
+  color: #00a8be; 
+  font-size: 1.3em; 
 }
