@@ -1,8 +1,37 @@
-h1 {
+body {
+  background-color: lightblue;
   font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+h1 {
   font-weight: 700; 
   color: darkblue;   
   text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #2F4F4F;  /* Dark Slate Gray */
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 hr {
@@ -16,13 +45,10 @@ hr {
   background-color: #86caf4;   
   border: 2px solid #48d6de;   
   border-radius: 10px;         
-  padding: 50px;              
-  margin: 20px;           
-  width: 60% auto;   
-}
-
-body {
-  background-color: lightblue;
+  padding: 20px;              
+  margin: 20px auto;           
+  width: 60%;   
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .email-link {
@@ -32,11 +58,6 @@ body {
 }
 
 .email-link:hover {
-  color: rgb(64, 81, 212);         
+  color: #4051d4;         
   text-decoration: underline; 
-}
-
-h3 {
-  color: #2F4F4F;  /* Dark Slate Gray */
-  font-weight: bold;
 }
